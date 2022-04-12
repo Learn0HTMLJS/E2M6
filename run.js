@@ -24,30 +24,3 @@ const server = http.createServer((reqest, response) => {
 server.listen(port, '127.0.0.1', () => {
     console.log(`Слушает порт ${port}`);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*response.setHeader('name', 'Roman');
-    response.setHeader('number1', '3');
-    response.setHeader('number2', '5');
-    response.statusCode = 200;
-    response.setHeader('sum', 3+5);
-    response.setHeader('minus', 5-3);
-    response.setHeader('multiply', 3*5);
-    response.setHeader('div', 5/3);*/
